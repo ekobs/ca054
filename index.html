@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Home</title>
+	<style>
+		body {
+			padding: 0%;
+			margin: 0%;
+			background: linear-gradient(to right, #313f3f, #304945);
+			text-align: center;
+		}
+
+		.container {
+			background-color: rgb(3, 3, 3);
+		}
+
+		.logo {
+			display: flex;
+			flex-direction: row;
+			padding: 15px;
+			margin-left: 2%;
+		}
+
+		.first {
+			color: white;
+			font-weight: 100;
+			font-size: 40px;
+			font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+		}
+
+		.last {
+			color: rgb(150, 252, 175);
+			font-weight: bolder;
+			font-size: 40px;
+			font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+		}
+
+		.navi {
+			display: flex;
+			justify-content: space-between;
+		}
+
+		.list-nav {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		ul {
+			list-style-type: none;
+			background-color: rgb(150, 252, 175);
+			border-top-left-radius: 30px;
+			border-bottom-left-radius: 30px;
+		}
+
+		li {
+			padding-right: 1px;
+			transition: ease-in-out 0.8s;
+		}
+
+		li:hover {
+			padding-right: 15px;
+			transition: ease-in-out 0.8s;
+		}
+
+		li a {
+			padding: 10px;
+			font-size: 15px;
+			font-weight: bolder;
+			color: rgb(0, 0, 0);
+			text-decoration: none;
+			font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+			transition: ease-in-out, 1s;
+		}
+
+		li a:hover {
+			padding: 10px;
+			transition: ease-in-out, 1s;
+			font-size: 15px;
+			font-weight: bolder;
+			color: rgb(0, 0, 0);
+			text-decoration: none;
+			font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+		}
+
+		h2 {
+			font-family: 'Times New Roman', Times, serif;
+			text-align: center;
+			margin-top: 15%;
+			margin-left: 20%;
+			margin-right: 20%;
+			font-size: 40px;
+			color: rgb(231, 231, 231);
+			transition: ease-in-out, 1s;
+		}
+
+		i {
+			font-family: 'Times New Roman', Times, serif;
+			color: rgb(231, 231, 231);
+			transition: ease-in-out 0.6s;
+		}
+
+		i:hover {
+			color: aquamarine;
+			transition: ease-in-out 0.6s;
+		}
+
+		button {
+			padding: 11px;
+			background-color: black;
+			border-radius: 20px;
+			width: 200px;
+			border: none;
+			transition: ease-in-out, 1s;
+		}
+
+		button:hover {
+			transition: ease-in-out, 0.5s;
+			padding: 11px;
+			background-color: rgb(224, 224, 224);
+			border-radius: 24px;
+			border: none;
+			transition: ease-in-out, 1s;
+		}
+
+		button a {
+			font-weight: 700;
+			width: 200px;
+			color: beige;
+			text-decoration: none;
+			font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+		}
+
+		button a:hover {
+			font-weight: 700;
+			width: 200px;
+			color: rgb(20, 20, 20);
+			text-decoration: none;
+			font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+		}
+
+		.bgimg {
+			background-image: url(./bg.jpg);
+			background-size: cover;
+			width: 100vw;
+			height: 100vh;
+			background-repeat: no-repeat;
+		}
+	</style>
+</head>
+
+<body class="bgimg">
+
+	<div class="container">
+
+		<nav class="navi">
+			<div class="logo">
+				<div class="first">
+					re
+				</div>
+				<div class="last">
+					:dsgn
+				</div>
+			</div>
+			<ul class="list-nav">
+				<li><a href="./bio.html">By</a></li>
+				<li><a href="./profile.html">Profile</a></li>
+				<li><a href="./contact.html">Contact</a></li>
+			</ul>
+		</nav>
+	</div>
+	<h2>We made <i>high </i><br>quality logo.</h2>
+	<button><a href="./logo.html">See them &#8594</a></button>
+
+</body>
+
+</html>
